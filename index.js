@@ -6,7 +6,7 @@ const joke=z.object({
       rating:z.string().describe("The unbiased rating of the Joke"),
 })
 const llm=new ChatGroq({
-    apiKey:"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",
+    apiKey:"Your_API_KEY",
     model:"llama-3.3-70b-versatile",
     temperature:1.0,
 })
